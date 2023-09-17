@@ -22,3 +22,6 @@ Quick and dirty todo app to try out Axum and PostgreSQL integration in rust.
 
 ##### Run sql file against database
 `psql -U <user> -d <database> -f <file>`
+
+##### Show tables (while in psql)
+`\dt`
